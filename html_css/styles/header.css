@@ -3,8 +3,8 @@
     display: flex;
     font-size: 2em;           /*coloca tamanho da fonte */
     color: aliceblue;         /*coloca cor da fonte*/
-    width: 95%;                /*coloca largura da janela */
-    height: 80px;                /*coloca caltura do espaço do cabeçalho */
+    width: 2090;                /*coloca largura da janela */
+    height: auto;                /*coloca caltura do espaço do cabeçalho */
     text-align: center;         /*alinha o texto do titulo */
     justify-content: space-between; /*coloca espaço entre os objetos do cabeçalho */
     align-items: center;
@@ -29,4 +29,13 @@
     transition-duration: 0.4s;
     cursor: pointer;
     background-image: linear-gradient(to bottom, #5aa15e, #adca5d);
+}
+
+header{
+    background-color: black;
+}
+
+img{
+    text-align: center;
+    scroll-padding-inline-end: 10px;
 }
