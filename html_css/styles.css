@@ -5,8 +5,10 @@
 
 body{
     background-image: url(imagens/imagen.jpg);
-    background-color: bisque;
+    background-color: rgb(255, 255, 255);
+    background-size: 110%;
     background-repeat: no-repeat;
+
    
    
    }
